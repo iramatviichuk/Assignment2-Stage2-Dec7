@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonious Space Design</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="background">
+    <figure class="image">
+        <img src="img/background-image.jpg" alt="background">
+        <figcaption> Harmonious Space Design </figcaption>
+    </figure>
+</div>
+
+<h1>New Furniture Styles</h1>
+
+<div class="assets">
+<div class="asset">
+<model-viewer src="Chair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp"
+    shadow-intensity="0.98" shadow-softness="0">
+    <button class="Hotspot" slot="hotspot-1"
+        data-position="0.22784210385584336m 0.46727655383089073m 0.2024621050081401m"
+        data-normal="0.7659122304696367m 0.5521407115287807m 0.32942235790777485m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Finest Oak Wood</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+</div>
+
+<figure class="images">
+<img src="img/Room1.png" width="650" height="400">
+</figure>
+
+<div class="asset">
+<model-viewer src="Couch1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp"
+    shadow-intensity="1.38" shadow-softness="0.3" exposure="1.05">
+    <button class="Hotspot" slot="hotspot-1"
+        data-position="-0.16404080521749861m 0.4724295883190166m 0.17982289794316753m"
+        data-normal="-0.14097766091817926m 0.9498811072616138m 0.27901824526272406m"
+        data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pattern from Italian Designer</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+</div>
+
+<figure class="images">
+<img src="img/New3-Camera.png" width="650" height="400">
+</figure>
+
+<div class="asset">
+<model-viewer src="GlassTable.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp"
+    shadow-intensity="1.55" shadow-softness="0.54" exposure="0.3">
+    <button class="Hotspot" slot="hotspot-2"
+        data-position="-0.002305774684408491m 0.004664090746209674m 0.0029362680695651433m"
+        data-normal="0m 0.9999999999999911m -1.343588610839583e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Black Stainless Steel Base &amp; Glass</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+</div>
+
+<figure class="images">
+<img src="img/Room3.png" width="650" height="400">
+</figure>
+
+</div>
+
+</body>
+</html>

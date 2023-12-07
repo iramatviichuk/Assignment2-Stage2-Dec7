@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 29, 29);
+}
+
+figure {
+    margin: 0;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+figcaption {
+    color: black;
+    font-weight: medium;
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+    top: 35%;
+    bottom: 60%;
+    left: 5%;
+    right: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.assets {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensure items wrap to the next line if they exceed width */
+    justify-content: center;
+    /* Align items in the center */
+}
+
+.asset {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 45%;
+    height: 10%;
+    border: 1px solid rgb(79, 83, 79);
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(228, 226, 221);
+    position: relative;
+    /* Position buttons relative to the asset */
+}
+
+model-viewer {
+    width: 90%;
+    height: 500px;
+    padding: 5%;
+}
+
+.images {
+    display: block;
+    margin: 20px;
+    margin-top: 7%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+    padding: 20px;
+    color: white;
+}
